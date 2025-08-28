@@ -1,7 +1,7 @@
 import axios from "axios";
 import React from "react";
 import toast from "react-hot-toast";
-import placeholder from "../../Assets/user.png";
+import placeholder from "../../assets/user.png";
 
 export default function GetComment({ post, userToken, data, visibleComment }) {
   function deleteComment(commentId) {
