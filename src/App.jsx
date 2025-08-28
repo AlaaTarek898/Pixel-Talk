@@ -23,7 +23,7 @@ function App() {
       path: '/',
       element: <MainLayout />,
       children: [
-        { index: true, element:   <Posts />},
+        { index: true, element:   <Register />},
           {path:'/register', element: <Register /> },
         { path: '/login', element: <Login /> },
         
