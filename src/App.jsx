@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import MainLayout from './Pages/MainLayout/MainLayout'
 import Register from './Pages/Register/Register'
@@ -18,7 +18,7 @@ import {
 } from '@tanstack/react-query'
 import Profile from './Pages/Profile/Profile'
 function App() {
-  const routs = createBrowserRouter([
+  const routs = createHashRouter([
     {
       path: '/',
       element: <MainLayout />,
